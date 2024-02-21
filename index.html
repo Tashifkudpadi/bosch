@@ -292,7 +292,7 @@
       </div>
     </section>
 
-    <section id="spin-wheel">
+    <!-- <section id="spin-wheel">
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-6 d-flex align-items-center">
@@ -315,6 +315,28 @@
               alt="img"
               class="img_full_width"
             />
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section id="spinner">
+      <div class="container-fluid">
+        <div class="row">
+          <div
+            class="col-md-6 d-flex justify-content-center align-items-center"
+          >
+            <div id="question">
+              <h1 class="heading-5 px-3 text-start">
+                Tap to <strong>spin</strong><br />
+                the wheel of
+                <strong>sustainability</strong>
+              </h1>
+            </div>
+          </div>
+          <div class="col-md-6 text-center pointer">
+            <img src="./assets/images/Spin-wheel-pointer.svg" alt="img" />
+            <div id="chart"></div>
           </div>
         </div>
       </div>
@@ -383,8 +405,9 @@
           <div class="cube_expedite">
             <img
               class="img_full_width"
-              src="./assets/images/Cube_gif.png"
+              src="./assets/images/cube-3.gif"
               alt="cube"
+              style="width: 200px"
             />
           </div>
 
@@ -425,6 +448,8 @@
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.7.1/rellax.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="./spin.js"></script>
 
     <script>
       var swiper = new Swiper(".swiper", {
